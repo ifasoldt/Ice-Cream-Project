@@ -1,0 +1,71 @@
+header {
+  height: 270px;
+  width: 100%;
+  background-image:url(http://www.sweetjennyswilliamsville.com/images/f8bax2uj7fr.jpg);
+}
+body {
+  background-color: #f1e5ff;
+}
+h1 {
+  font-size: 55px;
+  font-family:fantasy;
+}
+h3 {
+  font-size: 25px;
+  font-family:fantasy;
+}
+table {
+  border: 2px solid white;
+}
+th {
+  color:#66ccff;
+  font-size:18px;
+}
+.even {
+  background-color:#ecf9ec;
+  font-size: 14px;
+}
+.odd {
+  background-color:#ffece6;
+  font-size: 14px;
+}
+a:active {
+  color:black
+}
+a:hover {
+  color:hotpink;
+  background-color:black;
+}
+a:visited {
+  color:hotpink;
+  background-color:black;
+}
+img {
+  border: 2px solid gray;
+  border-radius: 5%;
+}
+#right {
+  position:absolute;
+  left: 500px;
+  top: 290px
+
+}
+aside {
+  position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 19%;
+	background-color: lightgrey;
+	margin-bottom: 10px;
+  border: 2px white solid;
+  border-radius: 10%;
+  padding: 10px;
+}
+figure {
+  position: relative;
+  margin:0;
+}
+footer {
+  position: relative;
+	height: 50px;
+}
