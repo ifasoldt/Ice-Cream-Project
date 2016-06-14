@@ -1,36 +1,38 @@
 header {
   height: 270px;
-  width: 100%;
   background-image:url(http://www.sweetjennyswilliamsville.com/images/f8bax2uj7fr.jpg);
 }
 body {
-  background-color: #f1e5ff;
+  background-color: #f2f2f2;
+  text-align: center;
 }
 h1 {
   font-size: 55px;
-  font-family:fantasy;
+  font-family:"Courier New";
+  border: 2px solid white;
 }
 h3 {
   font-size: 25px;
-  font-family:fantasy;
+  font-family:"Courier New";
 }
 table {
-  border: 2px solid white;
+  border: 4px dashed white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 th {
   color:#66ccff;
-  font-size:18px;
+  font-size:24px;
+  border-bottom: white 2px solid;
 }
 .even {
   background-color:#ecf9ec;
-  font-size: 14px;
+  font-size: 18px;
 }
 .odd {
   background-color:#ffece6;
-  font-size: 14px;
-}
-a:active {
-  color:black
+  font-size: 18px;
 }
 a:hover {
   color:hotpink;
@@ -44,28 +46,29 @@ img {
   border: 2px solid gray;
   border-radius: 5%;
 }
-#right {
-  position:absolute;
-  left: 500px;
-  top: 290px
-
-}
 aside {
   position: relative;
-	float: right;
-	margin-top: 50px;
-	width: 19%;
 	background-color: lightgrey;
-	margin-bottom: 10px;
   border: 2px white solid;
   border-radius: 10%;
   padding: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 figure {
   position: relative;
   margin:0;
+  width: 100%;
 }
 footer {
   position: relative;
 	height: 50px;
+  border: 5px solid white;
+}
+li {
+  font-size: 15px;
+  font-family: sans-serif;
+  display: inline;
+  border: 3px white solid;
+  border-radius: 10%
 }
